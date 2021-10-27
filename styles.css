@@ -58,7 +58,7 @@ div.smlogos {
 
 .product1 button{
     border-radius: 1px;
-    margin-left: 50px;
+    margin-left: 45px;
     padding: 5px 20px;
     border-width: 2px;
     border-color: grey;
@@ -85,7 +85,7 @@ div.smlogos {
 
 .product2 button{
     border-radius: 1px;
-    margin-left: 50px;
+    margin-left: 45px;
     padding: 5px 20px;
     border-width: 2px;
     border-color: grey;
@@ -111,7 +111,7 @@ div.smlogos {
 
 .product3 button{
     border-radius: 1px;
-    margin-left: 50px;
+    margin-left: 45px;
     padding: 5px 20px;
     border-width: 2px;
     border-color: grey;
@@ -137,7 +137,7 @@ div.smlogos {
 
 .product4 button{
     border-radius: 1px;
-    margin-left: 50px;
+    margin-left: 45px;
     padding: 5px 20px;
     border-width: 2px;
     border-color: grey;
@@ -164,7 +164,7 @@ div.smlogos {
 
 .product5 button{
     border-radius: 1px;
-    margin-left: 50px;
+    margin-left: 45px;
     padding: 5px 20px;
     border-width: 2px;
     border-color: grey;
@@ -189,7 +189,7 @@ div.smlogos {
 
 .product6 button{
     border-radius: 1px;
-    margin-left: 50px;
+    margin-left: 45px;
     padding: 5px 20px;
     border-width: 2px;
     border-color: grey;
@@ -206,3 +206,48 @@ div.smlogos {
     padding: 20px 0px 20px 80px;
 }
 
+div.p1card {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+.p1card img {
+    width: 100%;
+    padding-top: 10px;
+    
+    }
+  
+div.p1card {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+}
+
+.p1card p{
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.p1card h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.p1card > .price{
+    color: rgb(41, 41, 223);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.price button{
+    float: right;
+    border-radius: 1px;
+    padding: 5px 30px;
+    border-width: 2px;
+    border-color: gray;
+    background-color: rgb(41, 41, 223);
+    letter-spacing: 1px;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
