@@ -195,6 +195,14 @@ div.smlogos {
     border-color: grey;
 }
 
-section{
+
+.bottomproducts {
     background-color: grey;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
 }
+.bottomproducts > div{
+    padding: 20px 0px 20px 80px;
+}
+
