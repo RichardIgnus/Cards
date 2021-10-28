@@ -226,24 +226,139 @@ div.p1card {
 }
 
 .p1card p{
-    text-align: left;
-    margin-bottom: 5px;
+    font-size: 20px;
+    flex: 50%;
 }
 
+.p1card > .sampletxt{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
 .p1card h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
 
 .p1card > .price{
+    display: flex;
     color: rgb(41, 41, 223);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.price button{
+.p1card > .price button{
+    flex: 50%;
     float: right;
     border-radius: 1px;
     padding: 5px 30px;
+    margin-top: 15px;
+    border-width: 2px;
+    border-color: gray;
+    background-color: rgb(41, 41, 223);
+    letter-spacing: 1px;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+/* P1 ends here*/
+
+div.p2card {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+.p2card img {
+    width: 100%;
+    padding-top: 10px;
+    height: 450px;
+    }
+  
+div.p2card {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+}
+
+.p2card p{
+    font-size: 20px;
+    flex: 50%;
+}
+
+.p2card > .sampletxt{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.p2card h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.p2card > .price{
+    display: flex;
+    color: rgb(41, 41, 223);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.p2card > .price button{
+    flex: 50%;
+    float: right;
+    border-radius: 1px;
+    padding: 5px 30px;
+    margin-top: 15px;
+    border-width: 2px;
+    border-color: gray;
+    background-color: rgb(41, 41, 223);
+    letter-spacing: 1px;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  /* P2 ends here */
+
+  div.p3card {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+.p3card img {
+    width: 100%;
+    padding-top: 10px;
+    }
+  
+div.p3card {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+}
+
+.p3card p{
+    font-size: 20px;
+    flex: 50%;
+}
+
+.p3card > .sampletxt{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.p3card h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.p3card > .price{
+    display: flex;
+    color: rgb(41, 41, 223);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.p3card > .price button{
+    flex: 50%;
+    float: right;
+    border-radius: 1px;
+    padding: 5px 30px;
+    margin-top: 15px;
     border-width: 2px;
     border-color: gray;
     background-color: rgb(41, 41, 223);
