@@ -75,14 +75,15 @@ h1{
 
 .bottomproducts {
     background: grey;
-    padding: 80px 75px;
+    padding: 80px 170px;
     display:flex;
+    flex-direction: row;
 }
 
 .bottomproducts > .pcard{
     flex: 33%;
     margin: 5px;
-    padding: 20px 30px 15px 30px;
+    padding: 20px 60px 15px 60px;
     background-color: white;
 }
 
@@ -131,20 +132,49 @@ h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-@media screen and (max-width: 400px)
+@media screen and (max-width: 1500px){
+
+.bottomproducts{
+    flex-wrap: wrap;
+    }
+
+.pcard{
+    flex:50%;
+}
+}
+
+@media screen and (max-width: 800px)
 {
+
 .mainproducts{
     flex-wrap:wrap;
+    text-align: center;
 }
 
 .bottomproducts{
-    flex-direction: column;
-    flex:100%;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-.bottomproducts > .pcard {
-    flex-wrap: wrap;
+.pcard {
     flex-direction: column;
-    flex: 100%;
+    flex:100%;
+    width: auto;
+    height: auto;
+    margin: 0px 40px;
+    padding: 0px 40px;
+}
+.pcard img{
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+}
+.pcard h2{
+    margin-left: 50px;
+}
+.pcard p{
+    margin-left: 50px;
 }
 }
